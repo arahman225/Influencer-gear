@@ -81,6 +81,38 @@ gap: 25px;
 /* welcome hero style end */
 
 
+
+/* collection start */
+
+.checked {
+    color: orange;
+  }
+
+.col-collection{
+    padding: 15px;
+}
+
+.col-collection-card{
+    border: 1px solid #012a7018;
+    padding: 15px 17px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.col-collection-card img{
+    width: 100%;
+}
+
+.collection{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+/* collection end */
+
+
+
+
 /* shared style start */
 
 .display-flex{

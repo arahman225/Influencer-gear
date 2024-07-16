@@ -61,6 +61,23 @@ nav ul li img{
 }
 
 
+.our-sponsor{
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #012a703a;
+    margin-top: 60px;
+    padding: 30px 0px;
+    border-radius: 8px;
+}
+
+.our-sponsor{
+grid-template-columns: repeat(7, 1fr);
+justify-items: center;
+gap: 25px;
+}
+
+
+
 /* welcome hero style end */
 
 
@@ -99,4 +116,43 @@ nav ul li img{
     transform: translateX(7px);
 }
 
+
+
+.display-grid{
+
+
+
+    display: grid;
+}
+
+
 /* shared style end */
+
+
+
+/* responsive design start */
+
+@media screen and (max-width:577px) {
+    .display-flex{
+        flex-direction: column;
+    }
+
+    .menu-links{
+        text-align: center;
+    }
+    nav ul li{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .welcome-hero-content{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .our-sponsor{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+/* responsive design end */

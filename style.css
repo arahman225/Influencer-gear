@@ -108,6 +108,10 @@ gap: 25px;
 }
 
 
+.col-collection-card h4, h5, p{
+    margin: 6px 0px;
+}
+
 /* collection end */
 
 
@@ -131,7 +135,7 @@ gap: 25px;
 }
 
 .btn-primary{
-    padding: 16px 32px;
+    padding: 12px 20px;
     background-color: #012970;
     color: #ffffff;
     border-radius: 8px;
@@ -140,6 +144,11 @@ gap: 25px;
     letter-spacing: 2px;
     transition: .3s ease-in;
     cursor: pointer;
+    margin-top: 17px;
+}
+
+.btn-primary:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .fa-long-arrow-right{transition: .3s ease-in;}

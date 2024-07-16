@@ -140,6 +140,45 @@ gap: 25px;
 /* collection end */
 
 
+/* featured start */
+
+.feature-product{
+    gap: 96px;
+    
+}
+
+.featrue-product-content h4{
+    font-size: 1.6rem;
+    max-width: 610px;
+}
+
+/* featured end */
+
+
+/* ---------  footer start  -------- */
+
+.footer-content{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.footer-socila-links{
+  
+
+}
+
+.footer-socila-links .fa{
+    background-color: #ffffff25;
+    padding: 15px;
+    text-align: center;
+    margin: 5px 5px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+
+/* ---------  footer end  -------- */
+
 
 
 /* shared style start */
@@ -222,7 +261,15 @@ gap: 25px;
     .collection{
         grid-template-columns: repeat(1, 1fr);
     }
+    .feature-product{
+        flex-direction: column-reverse;
+        align-items: center;
+        
+    }
 
+    .featrue-product-content{
+        text-align: center;
+    }
 }
 
 

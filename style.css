@@ -39,6 +39,30 @@ nav ul li img{
 
 /* navbar style end */
 
+/* welcome hero style start */
+
+.welcome-hero-content{
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.welcome-hero-img{
+    background-image: url(assets/images/Circle\ design.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.welcome-hero-img img{
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* welcome hero style end */
+
 
 /* shared style start */
 
@@ -52,9 +76,27 @@ nav ul li img{
 }
 
 .para{
-    font-size: 1.07rem;
+    font-size: 1.05rem;
     font-weight: 600;
+    color: #3A3A3A;
 }
 
+.btn-primary{
+    padding: 16px 32px;
+    background-color: #012970;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    transition: .3s ease-in;
+    cursor: pointer;
+}
+
+.fa-long-arrow-right{transition: .3s ease-in;}
+
+.btn-primary:hover .fa-long-arrow-right{
+    transform: translateX(7px);
+}
 
 /* shared style end */
